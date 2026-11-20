@@ -14,6 +14,13 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 #bg { position: fixed; inset: 0; width: 100vw; height: 100vh; height: 100dvh; z-index: -2; }
+#santa { transform: translate(470px, 215px); }
+#pole { transform: translate(120px, 250px); }
+@media (min-width: 1000px) {
+  #app { margin-left: 5vw; margin-right: auto; }
+  #santa { transform: translate(600px, 215px); }
+  #pole { transform: translate(745px, 250px); }
+}
 .aurora { animation: sway 9s ease-in-out infinite alternate; }
 @keyframes sway { to { transform: translateX(40px) scaleY(1.15); } }
 
